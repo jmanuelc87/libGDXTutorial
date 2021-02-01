@@ -3,7 +3,7 @@ package org.oaksoft.tutorial.client;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import org.oaksoft.tutorial.MainApp;
+import org.oaksoft.tutorial.GameApp;
 
 public class HtmlLauncher extends GwtApplication {
 
@@ -17,6 +17,6 @@ public class HtmlLauncher extends GwtApplication {
 
         @Override
         public ApplicationListener createApplicationListener () {
-                return new MainApp();
+                return new GameApp();
         }
 }
